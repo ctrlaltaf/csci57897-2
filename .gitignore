@@ -205,3 +205,73 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# -----------------------------------------------------------------------------
+# LaTeX .gitignore Template
+# -----------------------------------------------------------------------------
+# Ignore LaTeX build and auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.fls
+*.fdb_latexmk
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# Ignore temporary directories from editors and tools
+latex.out/
+build/
+tmp/
+temp/
+auto/
+
+# Ignore generated PDFs (optional)
+# Uncomment this if you compile PDFs separately
+# *.pdf
+
+# Ignore glossaries, nomenclature, and other aux files
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.xdy
+
+# Ignore minted and pygments temp files
+_minted*
+*.pyg
+
+# Ignore output from auxiliary tools
+*.dvi
+*.ps
+*.pdfsync
+
+# Ignore backup and swap files
+*~
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+
+# -----------------------------------------------------------------------------
+# End of File
+# -----------------------------------------------------------------------------
